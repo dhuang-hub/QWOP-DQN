@@ -1,0 +1,20 @@
+agentParams:
+    stateSize: 40
+    memory_size: 700
+    batch_size: 128
+    gamma: 0.999
+    eps_start: 1
+    eps_end: 0.05
+    eps_decay: 300
+    target_update: 10
+    device: cpu
+
+environmentParams:
+    stateSize: 40
+    comboMax: 8
+    comboGain: 1.5
+    comboDecay: 0.85
+    noopPenalty: -0.1
+    shortDuration: 0.08
+    longDuration: 0.16
+    port: 8080

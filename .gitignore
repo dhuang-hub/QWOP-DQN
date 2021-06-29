@@ -1,0 +1,10 @@
+.DS_Store
+*.model
+assets/
+.ipynb_checkpoints/
+*.zip
+QWOP-DQN/
+*.ipynb
+*.js
+*.txt
+__pycache__/
